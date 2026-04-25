@@ -1,0 +1,30 @@
+.banner-quartos{
+height: 40vh;
+
+}
+.container-quartos img {
+    width: 350px;
+    flex-grow: 1;
+    border-radius: 4px;
+}
+.container-informacoes{
+    max-width: 1004px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.lista-informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.lista-informacoes li{
+    width: 250px;      
+   text-align: left;
+   
+}
+   
